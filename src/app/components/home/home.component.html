@@ -1,0 +1,84 @@
+<div class="hoja content" id="content">
+  <div class="cabeza">
+      <div class="logo">
+      </div>
+      <img src="../../../assets/logo.png">
+  </div>
+  <div class="seccion1">
+      <div class="cliente">
+          <h3>Datos del Cliente</h3>
+          <p>Nombre: <input type="text" value="Sandra Haro"></p>
+          <p>Dirección: <input type="text" value="Cualquiera 123"></p>
+          <p>Mail: <input type="text" value="Hola@unsitiogenial.es"></p>
+          <p>Teléfono: <input type="text" value="911-234-5678"></p>
+      </div>
+      <div class="empresa">
+          <h3>Datos de la Empresa</h3>
+          <p><input type="text" value="Sandra Haro"></p>
+          <p><input type="text" value="Carabella 123"></p>
+          <p><input type="text" value="Hola@unsitiogenial.es"></p>
+          <p><input type="text" value="911-234-5678"></p>
+      </div>
+  </div>
+  <div class="seccion2">
+      <p>Fecha: 15/08/2023</p>
+      <table>
+          <thead>
+              <tr>
+                  <th>Concepto</th>
+                  <th>Cantidad</th>
+                  <th>Precio</th>
+                  <th>Total</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><input type="text" value="Diseño web"></td>
+                  <td><input type="text" value="2"></td>
+                  <td><input type="text" value="100 €"></td>
+                  <td><input type="text" value="200 €"></td>
+              </tr>
+              <tr>
+                  <td><input type="text" value="Marketing"></td>
+                  <td><input type="text" value="3"></td>
+                  <td><input type="text" value="50 €"></td>
+                  <td><input type="text" value="150 €"></td>
+              </tr>
+              <tr>
+                  <td><input type="text" value="Producto"></td>
+                  <td><input type="text" value="1"></td>
+                  <td><input type="text" value="100 €"></td>
+                  <td><input type="text" value="100 €"></td>
+              </tr>
+              <tr>
+                  <td><input type="text" value="Banner"></td>
+                  <td><input type="text" value="5"></td>
+                  <td><input type="text" value="20 €"></td>
+                  <td><input type="text" value="100 €"></td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  <div class="seccion3">
+      <div class="Transferencia">
+          <p>Forma de pago: Transferencia</p>
+          <p>Nota: El servicio tiene una validez de 30 días.</p>
+      </div>
+      <div class="datos">
+          <div class="caja1">
+          <p>Subtotal:</p>
+          <p>IVA 21 %:</p>
+          <p>IRPF 7%:</p>
+          <p class="total">Total:</p>
+      </div>
+          <div class="caja2">
+              <input type="text" value="500 €">
+              <input type="text" value="35 €">
+              <input type="text" value="12 €">
+              <input type="text" value="547 €">
+          </div>
+      </div>
+  </div>
+  <div class="pie"></div>
+</div>
+<button (click)="descargarPDF()" class="btn btn-primary btn-lg btn-block">Download PDF</button>
